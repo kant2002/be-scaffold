@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-import { SessionType } from '@diia-inhouse/types'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import { Prompt } from '../../../interfaces'
 import { Answers } from '../../../interfaces/_templates/add/action'

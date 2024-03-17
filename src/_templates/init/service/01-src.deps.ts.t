@@ -3,20 +3,20 @@ to:  <%= serviceName %>/src/deps.ts
 ---
 import { asClass, asValue } from "awilix";
 
-import { DepsFactoryFn, GrpcService <%= h.isOptionSelected(selectedOptions, 'http') ? ", DepsResolver" : '' %> } from "@diia-inhouse/diia-app";
+import { DepsFactoryFn, GrpcService <%= h.isOptionSelected(selectedOptions, 'http') ? ", DepsResolver" : '' %> } from "@kant2002-diia-inhouse/diia-app";
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
 
 <%if (h.isOptionSelected(selectedOptions, 'database')) {%>
-  import { DatabaseService, DbType } from "@diia-inhouse/db";
+  import { DatabaseService, DbType } from "@kant2002-diia-inhouse/db";
 <%}%>
 
-import DiiaLogger from "@diia-inhouse/diia-logger";
-import { HealthCheck } from "@diia-inhouse/healthcheck";
+import DiiaLogger from "@kant2002-diia-inhouse/diia-logger";
+import { HealthCheck } from "@kant2002-diia-inhouse/healthcheck";
 
 <%if (h.isOptionSelected(selectedOptions, 'http')) {%>
-  import { HttpDeps, HttpService } from "@diia-inhouse/http";
-  import { HttpProtocol } from "@diia-inhouse/types";
+  import { HttpDeps, HttpService } from "@kant2002-diia-inhouse/http";
+  import { HttpProtocol } from "@kant2002-diia-inhouse/types";
 <%}%>
 
 import { AppDeps } from "@interfaces/deps";

@@ -2,16 +2,16 @@
 to:  <%= serviceName %>/src/config.ts
 ---
 
-import { BalancingStrategy, MetricsConfig, TransporterConfig } from '@diia-inhouse/diia-app'
+import { BalancingStrategy, MetricsConfig, TransporterConfig } from '@kant2002-diia-inhouse/diia-app'
 
-import { EnvService } from '@diia-inhouse/env'
-import { HealthCheckConfig } from '@diia-inhouse/healthcheck'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { HealthCheckConfig } from '@kant2002-diia-inhouse/healthcheck'
 
 <%if (h.isOptionSelected(selectedOptions, 'database')) {%>
-import { AppDbConfig, ReplicaSetNodeConfig } from '@diia-inhouse/db'
+import { AppDbConfig, ReplicaSetNodeConfig } from '@kant2002-diia-inhouse/db'
 <%}%>
 <%if (h.isOptionSelected(selectedOptions, 'redis')) {%>
-import { RedisConfig } from '@diia-inhouse/redis'
+import { RedisConfig } from '@kant2002-diia-inhouse/redis'
 <%}%>
 <%if (h.isOptionSelected(selectedOptions, ['internal', 'external'])) {%>
 import {
@@ -22,8 +22,8 @@ import {
     QueueConnectionType,
     QueueConfig,
     ScheduledTaskQueueName,
-} from '@diia-inhouse/diia-queue'
-import { ServiceName } from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/diia-queue'
+import { ServiceName } from '@kant2002-diia-inhouse/types'
 <%}%>
 
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type

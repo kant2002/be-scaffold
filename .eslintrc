@@ -1,5 +1,5 @@
 {
-    "extends": ["@diia-inhouse/eslint-config"],
+    "extends": ["@kant2002-diia-inhouse/eslint-config"],
     "overrides": [
         {
             "files": ["*.ts"],

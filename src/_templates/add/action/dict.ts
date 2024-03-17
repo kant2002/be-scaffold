@@ -1,4 +1,4 @@
-import { SessionType } from '@diia-inhouse/types'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 export const mapSessionTypeToActionArguments: Record<SessionType, string> = {
     [SessionType.User]: 'UserActionArguments',

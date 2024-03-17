@@ -2,7 +2,7 @@
 to:  <%= serviceName %>/src/interfaces/actions/v1/getAddResult.ts
 ---
 
-import { UserActionArguments } from '@diia-inhouse/types'
+import { UserActionArguments } from '@kant2002-diia-inhouse/types'
 
 import { GetAddResultRequest, GetAddResultResponse } from '@src/generated'
 

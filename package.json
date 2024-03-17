@@ -1,5 +1,5 @@
 {
-    "name": "@diia-inhouse/scaffold",
+    "name": "@kant2002-diia-inhouse/scaffold",
     "version": "2.8.1",
     "main": "dist/index.js",
     "license": "SEE LICENCE IN LICENCE.md",
@@ -31,23 +31,23 @@
         "lodash": "4.17.21"
     },
     "devDependencies": {
-        "@diia-inhouse/configs": "1.26.3",
-        "@diia-inhouse/eslint-config": "3.4.0",
-        "@diia-inhouse/types": "4.25.0",
+        "@kant2002-diia-inhouse/configs": "^1.26.3",
+        "@kant2002-diia-inhouse/eslint-config": "^3.4.0",
+        "@kant2002-diia-inhouse/types": ">=4.25.0",
         "@types/lodash": "4.14.201",
         "copyfiles": "2.4.1",
         "protobufjs": "7.2.5"
     },
     "release": {
-        "extends": "@diia-inhouse/configs/dist/semantic-release/package",
+        "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package",
         "branches": [
             "main"
         ]
     },
     "commitlint": {
-        "extends": "@diia-inhouse/configs/dist/commitlint"
+        "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
     },
-    "prettier": "@diia-inhouse/eslint-config/prettier",
+    "prettier": "@kant2002-diia-inhouse/eslint-config/prettier",
     "madge": {
         "tsConfig": "./tsconfig.json"
     }

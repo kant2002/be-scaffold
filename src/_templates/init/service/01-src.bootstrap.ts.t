@@ -2,9 +2,9 @@
 to:  <%= serviceName %>/src/bootstrap.ts
 ---
 
-import { Application, ServiceContext } from '@diia-inhouse/diia-app'
+import { Application, ServiceContext } from '@kant2002-diia-inhouse/diia-app'
 
-import { ServiceName } from '@diia-inhouse/types'
+import { ServiceName } from '@kant2002-diia-inhouse/types'
 
 import config from '@src/config'
 import deps from '@src/deps'

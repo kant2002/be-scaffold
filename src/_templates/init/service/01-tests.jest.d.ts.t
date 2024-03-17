@@ -2,4 +2,4 @@
 to:  <%= serviceName %>/tests/jest.d.ts
 ---
 
-import '@diia-inhouse/configs/jest/types'
+import '@kant2002-diia-inhouse/configs/jest/types'

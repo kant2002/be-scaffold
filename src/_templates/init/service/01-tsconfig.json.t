@@ -3,7 +3,7 @@ to:  <%= serviceName %>/tsconfig.json
 ---
 
 {
-    "extends": "@diia-inhouse/configs/tsconfig",
+    "extends": "@kant2002-diia-inhouse/configs/tsconfig",
     "compilerOptions": {
         "outDir": "dist",
         "declarationDir": "dist/types",

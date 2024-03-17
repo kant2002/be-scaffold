@@ -4,10 +4,10 @@ to:  <%= serviceName %>/tests/utils/getApp.ts
 
 import { asClass } from 'awilix'
 
-import { Application, GrpcService, MoleculerService, ServiceContext, ServiceOperator } from '@diia-inhouse/diia-app'
+import { Application, GrpcService, MoleculerService, ServiceContext, ServiceOperator } from '@kant2002-diia-inhouse/diia-app'
 
-import { mockClass } from '@diia-inhouse/test'
-import { ServiceName } from '@diia-inhouse/types'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { ServiceName } from '@kant2002-diia-inhouse/types'
 
 import config from '@src/config'
 

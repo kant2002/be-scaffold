@@ -2,15 +2,15 @@
 to:  <%= serviceName %>/src/interfaces/deps.ts
 ---
 
-import { GrpcService } from '@diia-inhouse/diia-app'
+import { GrpcService } from '@kant2002-diia-inhouse/diia-app'
 
-<%- h.isOptionSelected(selectedOptions, 'database') ? "import { DatabaseService } from '@diia-inhouse/db'" : '' %>
-<%- h.isOptionSelected(selectedOptions, 'redis') ? "import { RedisDeps } from '@diia-inhouse/redis'" : '' %>
-<%- h.isOptionSelected(selectedOptions, 'http') ? "import { HttpDeps } from '@diia-inhouse/http'" : '' %>
-<%- h.isOptionSelected(selectedOptions, ['internal', 'external']) ? "import { QueueDeps } from '@diia-inhouse/diia-queue'" : '' %>
+<%- h.isOptionSelected(selectedOptions, 'database') ? "import { DatabaseService } from '@kant2002-diia-inhouse/db'" : '' %>
+<%- h.isOptionSelected(selectedOptions, 'redis') ? "import { RedisDeps } from '@kant2002-diia-inhouse/redis'" : '' %>
+<%- h.isOptionSelected(selectedOptions, 'http') ? "import { HttpDeps } from '@kant2002-diia-inhouse/http'" : '' %>
+<%- h.isOptionSelected(selectedOptions, ['internal', 'external']) ? "import { QueueDeps } from '@kant2002-diia-inhouse/diia-queue'" : '' %>
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import { HealthCheck } from '@diia-inhouse/healthcheck'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { HealthCheck } from '@kant2002-diia-inhouse/healthcheck'
 
 import { AppConfig } from '@src/interfaces/config'
 

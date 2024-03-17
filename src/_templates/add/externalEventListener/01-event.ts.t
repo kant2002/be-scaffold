@@ -2,8 +2,8 @@
 to: <%= eventPath %>
 ---
 
-import { EventBusListener, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { EventBusListener, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import { ExternalEventPayload } from '@interfaces/externalEventListeners/<%= h.changeCase.camel(eventEnumKey) %>'
 

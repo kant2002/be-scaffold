@@ -27,20 +27,20 @@ to:  <%= packageName %>/package.json
   "keywords": [],
   "devDependencies": {},
   "jest": {
-    "preset": "@diia-inhouse/configs/dist/jest"
+    "preset": "@kant2002-diia-inhouse/configs/dist/jest"
   },
   "commitlint": {
-    "extends": "@diia-inhouse/configs/dist/commitlint"
+    "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
   },
   "eslintConfig": {
-    "extends": "@diia-inhouse/eslint-config",
+    "extends": "@kant2002-diia-inhouse/eslint-config",
     "parserOptions": {
       "project": ["./tsconfig.json", "./tests/tsconfig.json"]
     }
   },
   "release": {
-    "extends": "@diia-inhouse/configs/dist/semantic-release/package",
+    "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package",
     "branches": ["main"]
   },
-  "prettier": "@diia-inhouse/eslint-config/prettier"
+  "prettier": "@kant2002-diia-inhouse/eslint-config/prettier"
 }

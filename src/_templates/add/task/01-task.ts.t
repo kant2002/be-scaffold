@@ -2,10 +2,10 @@
 to:  <%= taskPath %>
 ---
 
-import { TaskListener } from '@diia-inhouse/diia-queue'
+import { TaskListener } from '@kant2002-diia-inhouse/diia-queue'
 
 <% if (isTaskWithValidation) { %>
-  import { ValidationSchema } from '@diia-inhouse/validators'
+  import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
   import { ExternalEventPayload } from '@interfaces/externalEventListeners/<%= h.changeCase.camel(taskEnumKey) %>'
   import { TaskPayload } from '@interfaces/tasks/<%= h.changeCase.camel(taskEnumKey) %>'
 <% } %>

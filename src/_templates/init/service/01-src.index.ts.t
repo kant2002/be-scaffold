@@ -2,9 +2,9 @@
 to:  <%= serviceName %>/src/index.ts
 ---
 
-import { initTracing } from '@diia-inhouse/diia-app'
+import { initTracing } from '@kant2002-diia-inhouse/diia-app'
 
-import { ServiceName } from '@diia-inhouse/types'
+import { ServiceName } from '@kant2002-diia-inhouse/types'
 
 const serviceName = ServiceName.<%= h.changeCase.pascalCase(serviceName) %>
 

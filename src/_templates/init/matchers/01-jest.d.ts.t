@@ -3,7 +3,7 @@ to: <%= jestTypesDeclarationPath %>
 force: true
 ---
 
-/// <reference types="@diia-inhouse/configs/jest/types" />
+/// <reference types="@kant2002-diia-inhouse/configs/jest/types" />
 
 declare namespace jest {
     interface Matchers<R> {

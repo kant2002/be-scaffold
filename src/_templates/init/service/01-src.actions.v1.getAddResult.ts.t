@@ -2,10 +2,10 @@
 to:  <%= serviceName %>/src/actions/v1/getAddResult.ts
 ---
 
-import { GrpcAppAction } from '@diia-inhouse/diia-app'
+import { GrpcAppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, SessionType } from '@diia-inhouse/types'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { ActionVersion, SessionType } from '@kant2002-diia-inhouse/types'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import { ActionResult, CustomActionArguments } from '@interfaces/actions/v1/getAddResult'
 

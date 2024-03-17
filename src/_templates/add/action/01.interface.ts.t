@@ -3,7 +3,7 @@ to:  <%= interfacePath %>
 ---
 
 <% if (inheritedActionInterface) { %>
-    import { <%= inheritedActionInterface  %> } from '@diia-inhouse/types'
+    import { <%= inheritedActionInterface  %> } from '@kant2002-diia-inhouse/types'
 <% } %>
 import { <%= h.changeCase.pascal(name) %>Req, <%= h.changeCase.pascal(name) %>Res } from '@src/generated'
 

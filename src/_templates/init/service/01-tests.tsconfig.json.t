@@ -3,7 +3,7 @@ to:  <%= serviceName %>/tests/tsconfig.json
 ---
 
 {
-    "extends": "@diia-inhouse/configs/tsconfig",
+    "extends": "@kant2002-diia-inhouse/configs/tsconfig",
     "compilerOptions": {
         "baseUrl": "../",
         "paths": {
